@@ -1,0 +1,50 @@
+/*
+ *
+ *   INSPINIA - Responsive Admin Theme
+ *   Meteor version
+ *   version 2.4
+ *
+*/
+
+// Google Fonts
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Quattrocento+Sans:700");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+// @import url("http://fonts.googleapis.com/css?family=Roboto"); //Unused, kept because cool font.
+// @import url("http://fonts.googleapis.com/css?family=Oswald"); //Unused, kept because cool font.
+// @import url("https://fonts.googleapis.com/css?family=Cantarell:700"); //Unused, kept because cool font.
+
+// Variables, Mixins
+@import "globals/variables.import.less";
+
+// Component Specific Customs
+// Banner
+@import "custom/components/banner.import.less";
+// Mazel_Navbar
+@import "custom/components/mazel_navbar.import.less";
+// Mazel_Features Section
+@import "custom/components/mazel_features.import.less";
+// Image Portfolio
+@import "custom/components/image_portfolio.import.less";
+// Contact Me Section
+@import "custom/components/contact.import.less";
+// Site Preloader
+@import "custom/components/preloader.import.less";
+// About Me Section
+@import "custom/components/aboutme.import.less";
+// Copyright Section
+@import "custom/components/copyright.import.less";
+
+// Global Custom styles
+@import "globals/global.import.less";
+
+// Clear layout on print mode
+@media print {
+  nav.navbar-static-side {
+    display: none;
+  }
+
+  #page-wrapper {
+    margin: 0;
+  }
+}

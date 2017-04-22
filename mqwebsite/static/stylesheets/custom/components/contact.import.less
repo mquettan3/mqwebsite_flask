@@ -1,0 +1,602 @@
+/////General Classes
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.pr-5 {
+  padding-right: 5px;
+}
+.pr-10 {
+  padding-right: 10px;
+}
+
+/////Footer Wrapper
+.dark .contact-footer {
+  background-color: @dark-background-color;
+  font-family: @body-font;
+}
+
+.contact-footer {
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 40px 0;
+  background-color: @base-background-color;
+  overflow: auto;
+}
+/////End Footer Wrapper
+
+///// Content Wrapper
+.contact-footer-inner .contact-footer-content,
+.contact-footer-inner .contact-footer-content p
+{
+  color: @light-text-color;
+}
+
+.contact-footer-inner .contact-footer-content p,
+.contact-footer-inner .contact-footer-content li
+{
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+///// In-line Contact Information Start
+.contact-footer-content .text-default.fa {
+  color: @light-accent-color;
+}
+
+.contact-footer-content .text-default.a {
+  color: @light-accent-color;
+}
+
+.link-dark {
+  color: @light-text-color;
+}
+
+.link-dark:hover {
+  color: @light-text-color;
+  text-decoration: underline;
+}
+///// End In-line Contact Information Start
+///// End Content Wrapper
+
+/////All Input
+/////All Input Boxes
+.dark .contact-footer-content .form-control {
+  border-color: @dark-background-color;
+}
+
+.contact-footer .form-control {
+  box-shadow: inset 0 2px 3px rgba(0,0,0,0.6);
+  color: @form-text-color;
+  border-radius: 5px;
+  height: 40px;
+  -webkit-appearance: none;
+}
+
+.dark .contact-footer .form-control {
+  background-color: @form-background-color;
+}
+
+.dark .contact-footer .form-control:focus {
+  background-color: @form-background-color-focus;
+  outline: 0;
+  border-color: @dark-background-color; //Important due to conflict with the INSPINIA .form-control
+}
+
+//Textarea box only
+textarea.message_box.form-control {
+  resize: vertical;
+  height: auto;
+  position: relative;
+  display: inline-block;
+}
+/////End All Input Boxes
+
+///// Submit button
+.dark .btn-default {
+  color: @form-text-color;
+  background-color: @button-background-color;
+  border-color: @button-border-color;
+  background-image: none;
+  text-shadow: none;
+  box-shadow: none;
+}
+
+.dark .btn-default:hover {
+  background-color: @button-background-color-focus;
+  border-color: @button-border-color-focus;
+}
+
+.dark .btn-default:active {
+  background-color: @button-background-color-focus;
+  border-color: @button-border-color-focus;
+}
+
+.btn:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset:-2px;
+}
+
+.btn {
+  padding: 7px 20px;
+}
+///// End Submit button
+/////End All Input
+
+///// Start separator-2
+.separator-2 {
+  width: 100%;
+  position: relative;
+  height: 1px;
+}
+
+.separator-2:after {
+  height: 1px;
+  background: #d1d1d1;
+  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.12) 35%, rgba(0, 0, 0, 0.05) 70%, rgba(0, 0, 0, 0) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0, 0, 0, 0.18)), color-stop(35%, rgba(0, 0, 0, 0.12)), color-stop(70%, rgba(0, 0, 0, 0.05)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.12) 35%, rgba(0, 0, 0, 0.05) 70%, rgba(0, 0, 0, 0) 100%);
+  background: -o-linear-gradient(left, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.12) 35%, rgba(0, 0, 0, 0.05) 70%, rgba(0, 0, 0, 0) 100%);
+  background: -ms-linear-gradient(left, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.12) 35%, rgba(0, 0, 0, 0.05) 70%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.12) 35%, rgba(0, 0, 0, 0.05) 70%, rgba(0, 0, 0, 0) 100%);
+  position: absolute;
+  bottom: -1px;
+  left: 0px;
+  content: "";
+  width: 100%;
+}
+
+.dark .separator-2:after {
+  background: #444444;
+  background: -moz-linear-gradient(left, #444444 0%, #393939 35%, #323232 70%, #222222 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #444444), color-stop(35%, #393939), color-stop(70%, #323232), color-stop(100%, #222222));
+  background: -webkit-linear-gradient(left, #444444 0%, #393939 35%, #323232 70%, #222222 100%);
+  background: -o-linear-gradient(left, #444444 0%, #393939 35%, #323232 70%, #222222 100%);
+  background: -ms-linear-gradient(left, #444444 0%, #393939 35%, #323232 70%, #222222 100%);
+  background: linear-gradient(to right, #444444 0%, #393939 35%, #323232 70%, #222222 100%);
+}
+
+.contact-footer-content .separator-2 {
+  margin-bottom: 25px;
+}
+///// End Start separator-2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+///// Social Buttons ///// This is the last thing in this file
+
+/* Social icons block
+---------------------------------- */
+.social-links {
+  list-style: none;
+  font-size: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 0;
+}
+.social-links li {
+  display: inline-block;
+  margin: 0 2px 2px 0;
+}
+.social-links li a {
+  width: 40px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid #e7e7e7;
+  color: #cdcdcd;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.social-links li a i {
+  line-height: 40px;
+}
+.social-links li a:hover {
+  background-color: transparent;
+  border-color: #0c9ec7;
+  color: #0c9ec7;
+}
+.social-links.animated-effect-1 li a {
+  -webkit-transition: color 0.4s;
+  -o-transition: color 0.4s;
+  transition: color 0.4s;
+  position: relative;
+  z-index: 1;
+}
+.social-links.animated-effect-1 li a:hover {
+  color: #ffffff!important;
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+.social-links.animated-effect-1 li a:after {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  content: '';
+  top: 0px;
+  left: 0px;
+  padding: 0px;
+  z-index: -1;
+  background-color: #09afdf;
+  -webkit-transition: -webkit-transform 0.4s, opacity 0.4s, background-color 0.4s;
+  -moz-transition: -moz-transform 0.4s, opacity 0.4s, background-color 0.4s;
+  transition: transform 0.4s, opacity 0.4s, background-color 0.4s;
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -o-transform: scale(1.4);
+  transform: scale(1.4);
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.social-links.animated-effect-1 li a:hover:after {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  -webkit-transition: -webkit-transform 0s, opacity 0.3s, background-color 0.3s;
+  -moz-transition: -moz-transform 0s, opacity 0.3s, background-color 0.3s;
+  transition: transform 0s, opacity 0.3s, background-color 0.3s;
+}
+.social-links.animated-effect-1:not(.circle) li a:after {
+  -webkit-border-radius: 0%;
+  -moz-border-radius: 0%;
+  border-radius: 0%;
+}
+.default.social-links li a {
+  background-color: #09afdf;
+  border: 1px solid #0c9ec7;
+  color: #ffffff;
+}
+.default.social-links li a:hover {
+  background-color: #ffffff;
+  color: @light-text-color;
+}
+.dark .social-links li a {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+}
+.dark.social-links li a {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+}
+.dark.social-links li a:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.colored .social-links li a {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.01);
+  color: #ffffff;
+}
+.header-top .social-links {
+  margin: 0;
+  display: inline-block;
+  margin-top: 2px;
+}
+.contact-footer-content .social-links li {
+  margin: 0 5px 5px 0;
+}
+.contact-footer-content .social-links li a {
+  color: @light-text-color;
+  background-color: transparent;
+  border-color: @light-text-color;
+}
+.contact-footer-content .social-links li a:hover {
+  color: #fff;
+  background-color: @light-text-color;
+  border-color: @light-text-color;
+}
+.social-links.small li a {
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+}
+.social-links.small li a i {
+  line-height: 29px;
+}
+.social-links.large li a {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+}
+.social-links.large li a i {
+  line-height: 60px;
+}
+.social-links.square li a,
+.square {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.social-links.circle li a {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+.social-links.animated-effect-1 li.twitter a:hover {
+  border-color: #55acee;
+}
+.social-links:not(.animated-effect-1) li.twitter a:hover,
+.colored.social-links li.twitter a,
+.social-links.animated-effect-1 li.twitter a:after,
+.btn.twitter {
+  background-color: #55acee;
+  border-color: #55acee;
+  color: #fff;
+}
+.social-links.animated-effect-1 li.skype a:hover {
+  border-color: #00aff0;
+}
+.social-links:not(.animated-effect-1) li.skype a:hover,
+.colored.social-links li.skype a,
+.social-links.animated-effect-1 li.skype a:after,
+.btn.skype {
+  background-color: #00aff0;
+  border-color: #00aff0;
+  color: #fff;
+}
+.social-links.animated-effect-1 li.linkedin a:hover {
+  border-color: #0976b4;
+}
+.social-links:not(.animated-effect-1) li.linkedin a:hover,
+.colored.social-links li.linkedin a,
+.social-links.animated-effect-1 li.linkedin a:after,
+.btn.linkedin {
+  background-color: #0976b4;
+  border-color: #0976b4;
+  color: #fff;
+}
+.social-links.animated-effect-1 li.googleplus a:hover {
+  border-color: #dd4b39;
+}
+.social-links:not(.animated-effect-1) li.googleplus a:hover,
+.colored.social-links li.googleplus a,
+.social-links.animated-effect-1 li.googleplus a:after,
+.btn.googleplus {
+  background-color: #dd4b39;
+  border-color: #dd4b39;
+  color: #fff;
+}
+.social-links.animated-effect-1 li.youtube a:hover {
+  border-color: #b31217;
+}
+.social-links:not(.animated-effect-1) li.youtube a:hover,
+.colored.social-links li.youtube a,
+.social-links.animated-effect-1 li.youtube a:after,
+.btn.youtube {
+  background-color: #b31217;
+  border-color: #b31217;
+  color: #fff;
+}
+.social-links.animated-effect-1 li.flickr a:hover {
+  border-color: #ff0084;
+}
+.social-links:not(.animated-effect-1) li.flickr a:hover,
+.colored.social-links li.flickr a,
+.social-links.animated-effect-1 li.flickr a:after,
+.btn.flickr {
+  background-color: #ff0084;
+  border-color: #ff0084;
+  color: #fff;
+}
+.social-links.animated-effect-1 li.facebook a:hover {
+  border-color: #3b5998;
+}
+.social-links:not(.animated-effect-1) li.facebook a:hover,
+.colored.social-links li.facebook a,
+.social-links.animated-effect-1 li.facebook a:after,
+.btn.facebook {
+  background-color: #3b5998;
+  border-color: #3b5998;
+  color: #fff;
+}
+.social-links.animated-effect-1 li.pinterest a:hover {
+  border-color: #cb2027;
+}
+.social-links:not(.animated-effect-1) li.pinterest a:hover,
+.colored.social-links li.pinterest a,
+.social-links.animated-effect-1 li.pinterest a:after,
+.btn.pinterest {
+  background-color: #cb2027;
+  border-color: #cb2027;
+  color: #fff;
+}
+.social-links.animated-effect-1 li.instagram a:hover {
+  border-color: #517fa4;
+}
+.social-links:not(.animated-effect-1) li.instagram a:hover,
+.colored.social-links li.instagram a,
+.social-links.animated-effect-1 li.instagram a:after,
+.btn.instagram {
+  background-color: #517fa4;
+  border-color: #517fa4;
+  color: #fff;
+}
+.social-links.animated-effect-1 li.vimeo a:hover {
+  border-color: #aad450;
+}
+.social-links:not(.animated-effect-1) li.vimeo a:hover,
+.colored.social-links li.vimeo a,
+.social-links.animated-effect-1 li.vimeo a:after,
+.btn.vimeo {
+  background-color: #aad450;
+  border-color: #aad450;
+  color: #fff;
+}
+.social-links.animated-effect-1 li.tumblr a:hover {
+  border-color: #32506d;
+}
+.social-links:not(.animated-effect-1) li.tumblr a:hover,
+.colored.social-links li.tumblr a,
+.social-links.animated-effect-1 li.tumblr a:after,
+.btn.tumblr {
+  background-color: #32506d;
+  border-color: #32506d;
+  color: #fff;
+}
+.social-links.animated-effect-1 li.soundcloud a:hover {
+  border-color: #ff3a00;
+}
+.social-links:not(.animated-effect-1) li.soundcloud a:hover,
+.colored.social-links li.soundcloud a,
+.social-links.animated-effect-1 li.soundcloud a:after,
+.btn.soundcloud {
+  background-color: #ff3a00;
+  border-color: #ff3a00;
+  color: #fff;
+}
+.social-links.animated-effect-1 li.foursquare a:hover {
+  border-color: #0072b1;
+}
+.social-links:not(.animated-effect-1) li.foursquare a:hover,
+.colored.social-links li.foursquare a,
+.social-links.animated-effect-1 li.foursquare a:after,
+.btn.foursquare {
+  background-color: #0072b1;
+  border-color: #0072b1;
+  color: #fff;
+}
+.social-links.animated-effect-1 li.dribbble a:hover {
+  border-color: #ea4c89;
+}
+.social-links:not(.animated-effect-1) li.dribbble a:hover,
+.colored.social-links li.dribbble a,
+.social-links.animated-effect-1 li.dribbble a:after,
+.btn.dribbble {
+  background-color: #ea4c89;
+  border-color: #ea4c89;
+  color: #fff;
+}
+.social-links.animated-effect-1 li.xing a:hover {
+  border-color: #126567;
+}
+.social-links:not(.animated-effect-1) li.xing a:hover,
+.colored.social-links li.xing a,
+.social-links.animated-effect-1 li.xing a:after,
+.btn.xing {
+  background-color: #126567;
+  border-color: #126567;
+  color: #fff;
+}
+.social-links.animated-effect-1 li.behance a:hover {
+  border-color: #126567;
+}
+.social-links:not(.animated-effect-1) li.behance a:hover,
+.colored.social-links li.behance a,
+.social-links.animated-effect-1 li.behance a:after,
+.btn.behance {
+  background-color: #053eff;
+  border-color: #053eff;
+  color: #fff;
+}
+.social-links.animated-effect-1 li.vine a:hover {
+  border-color: #126567;
+}
+.social-links:not(.animated-effect-1) li.vine a:hover,
+.colored.social-links li.vine a,
+.social-links.animated-effect-1 li.vine a:after,
+.btn.vine {
+  background-color: #00a478;
+  border-color: #00a478;
+  color: #fff;
+}
+.social-links.animated-effect-1 li.stumbleupon a:hover {
+  border-color: #126567;
+}
+.social-links:not(.animated-effect-1) li.stumbleupon a:hover,
+.colored.social-links li.stumbleupon a,
+.social-links.animated-effect-1 li.stumbleupon a:after,
+.btn.stumbleupon {
+  background-color: #f74425;
+  border-color: #f74425;
+  color: #fff;
+}
+.social-links .dropdown > button {
+  padding: 1px 15px 0px;
+  font-size: 16px;
+  color: #999999;
+  text-align: center;
+  min-width: 0;
+  margin: 0;
+  background-color: transparent;
+  -moz-box-shadow: none !important;
+  -o-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.social-links .dropdown > button i {
+  width: 15px;
+}
+.header-top:not(.dark) .social-links .dropdown.open > button > i:before {
+  color: #09afdf;
+}
+.header-top.colored .social-links .dropdown > button > i:before,
+.header-top.colored .social-links .dropdown.open > button > i:before {
+  color: #ffffff;
+}
+.header-top .social-links .dropdown.open > button > i:before {
+  content: "\f00d";
+}
+.social-links .dropdown-menu {
+  z-index: 103;
+  padding: 5px;
+  min-width: 270px;
+  margin-top: 6px;
+  font-size: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: #f2f2f2;
+  border: 1px solid #D0D0D0;
+  border-top: none;
+}
+.social-links .dropdown-menu li a,
+.dark .social-links .dropdown-menu li a i,
+.colored .social-links .dropdown-menu li a i {
+  padding: 0;
+  line-height: 30px;
+  color: #ffffff;
+}
+.social-links .dropdown-menu li a i {
+  padding-left: 0;
+}
+.social-links .dropdown-menu li a:hover i {
+  color: #ffffff;
+}
+
+///// End Social Buttons /////

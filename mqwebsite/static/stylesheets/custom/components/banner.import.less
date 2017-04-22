@@ -1,0 +1,179 @@
+//Background image
+.banner {
+    background-color: @accent-color;
+}
+.banner-image {
+    background-image: url('/img/landing/Atlanta_Cityscape.jpg');
+    background-attachment: fixed;
+    background-position: center top;
+}
+//End Background Image
+
+// Caption Text Overlay
+.banner-caption {
+    font-family: @title-font;
+    top: 250px;
+    text-transform: uppercase;
+}
+
+.banner-caption h1 {
+    color: @accent-color;
+    letter-spacing: 1.5px;
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: bold;
+}
+
+.banner-caption p {
+    font-size: 18px;
+    color: #ffffff;
+}
+// End Caption Text Overlay
+
+// Adjust height of navbar for each 4 Chrome cases
+// Default Values
+.banner {
+    height: 824px;
+}
+
+.banner-image {
+    height: 820px;
+}
+
+@media all and (height: 1019px) {
+    //No bookmarks bar, no start menu
+    .banner {
+        height: 824px;
+    }
+
+    .banner-image {
+        height: 820px;
+    }
+}
+
+@media all and (height: 995px) {
+    //Bookmarks Bar, no start menu
+    .banner {
+        height: 800px;
+    }
+
+    .banner-image {
+        height: 796px;
+    }
+}
+
+@media all and (height: 979px) {
+    //No Bookmarks Bar, start menu
+    .banner {
+        height: 784px;
+    }
+
+    .banner-image {
+        height: 780px;
+    }
+}
+
+@media all and (height: 955px) {
+    //Bookmarks Bar, start menu
+    .banner {
+        height: 760px;
+    }
+
+    .banner-image {
+        height: 756px;
+    }
+}
+// End Adjust height of navbar for each 4 Chrome cases
+
+// Call to action button
+.btn {
+    padding: 7px 20px;
+    font-size: 14px;
+    line-height: 1.46666667;
+    text-transform: none;
+    border-radius: 3px;
+    margin: 10px 0;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    //Makes it so the user cannot highlight-select this button
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    //End
+}
+
+.btn-animated {
+    position: relative;
+    min-width: 0!important;
+    padding-right: 45px!important;
+}
+
+.btn-anmiated:after {
+    width: 35px;
+    height: 100%;
+    background-color: @dark-background-color;
+    position: absolute;
+    content: "";
+    top: 0;
+    opacity: 0;
+    right: 0px;
+    z-index: 2;
+}
+
+.btn-dark,
+.btn.btn-gray-transparent:focus {
+    color: #ffffff;
+    background-color: #373737;
+    border-color: #333333;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn.btn-gray-transparent:hover,
+.btn.btn-gray-transparent:active {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: @dark-background-color;
+    border-color: #111111;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+pl-20 {
+  padding-left: 20px;
+}
+
+.btn-animated i {
+    z-index: 3;
+    right: 17px;
+    position: absolute;
+    line-height: 34px;
+    top: 0;
+    min-width: 12px;
+}
+
+.btn-animated.btn-lg:hover i,
+.btn-animated.btn-lg:active i {
+    top: 5px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-animated.btn-lg i {
+    top: 0px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+// End call to action button

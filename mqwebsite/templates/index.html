@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- External Stylesheets -->
+<link rel="stylesheet" type="text/css" href="stylesheets/animate.css" />
+<link rel="stylesheet" type="text/css" href="stylesheets/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="stylesheets/linea_icons/linea_icon_font.css" />
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Custom Stylesheets -->
+<link rel="stylesheet/less" type="text/css" href="stylesheets/style.less" />
+
+<!-- External Javascript Libraries -->
+<script src="js/less.js" type="text/javascript"></script> <!-- less because css variables are amazing -->
+<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script> <!-- jQuery because everyone uses jQuery -->
+<script src="js/wow.min.js" type="text/javascript"></script> <!-- WOW animations, assists animate.css Animates on show. -->
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- Custom Javascript that should run before HTML gets rendered -->
+<script src="js/initialize.js" type="text/javascript"></script>
+
+</head>
+<body>
+  <!-- Pre-loader -->
+  <div class="loader-wrapper">
+    <div id="loader"></div>
+  </div>
+
+  <!-- Navbar -->
+  <section id="header" class="header navbar-fixed-top">
+    <div class="container header-inner">
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- Logo -->
+          <div class="logo">
+            <a class="page-scroll" href="#home">QUETTAN</a>
+          </div>
+          <!-- End Logo -->
+
+          <!--Navigation Icon-->
+          <div class="nav-menu-icon">
+            <a><i class="fa fa-bars"></i></a>
+          </div>
+          <!--End Navigation Icon-->
+
+          <!-- Navigation Menu -->
+          <div class="nav nav-menu">
+            <ul class="nav-menu-inner">
+              <li><a class="page-scroll" href="#home">Home</a></li>
+              <li><a class="page-scroll" href="#aboutme">About Me</a></li>
+              <li><a class="page-scroll" href="#features">My Services</a></li>
+              <li><a class="page-scroll" href="#mission">My Mission</a></li>
+              <li><a class="page-scroll" href="#contact">Contact Me</a></li>
+            </ul>
+          </div>
+          <!-- End Navigation Menu -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Navbar -->
+
+  <!-- Banner -->
+  <section id="home" class="banner">
+    <div class="banner-image">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-lg-offset-1 banner-caption">
+              <h1>Marcus Quettan</h1>
+              <p>
+                Developing. Creating. Solving.<br/>
+                <a href="#aboutme" class="page-scroll btn btn-dark btn-lg btn-gray-transparent btn-animated">
+                    Learn More<i class="fa fa-arrow-down pl-20"></i>
+                </a>
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Banner -->
+
+  <!-- About Me -->
+  <section id="aboutme" class="container">
+  <div class="row">
+    <!-- Heading Name -->
+    <div class="col-lg-12 text-center gallery-header">
+        <div class="navy-line"></div>
+        <h1>About <span class="gallery-header-light">Me</span></h1>
+    </div>
+  </div>
+
+  <!-- Complete About Me -->
+  <div class="row content-wrapper">
+      <!-- accordion start -->
+      <!-- ================ -->
+    <div class="col-md-6">
+      <div class="panel-group collapse-style-1" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                <i class="fa fa-university pr-10"></i>Education
+              </a>
+            </h4>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse in">
+            <div class="panel-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue dui vehicula, tincidunt diam ac, faucibus arcu. Etiam pellentesque imperdiet elit, id bibendum lorem auctor a. Donec rhoncus euismod pellentesque. Sed pretium semper nisi. Proin euismod euismod justo, quis mattis nulla iaculis nec. Integer at dolor ante. Donec efficitur suscipit nunc lobortis molestie.
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed">
+                <i class="fa fa-desktop pr-10"></i>Professional Experience
+              </a>
+            </h4>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue dui vehicula, tincidunt diam ac, faucibus arcu. Etiam pellentesque imperdiet elit, id bibendum lorem auctor a. Donec rhoncus euismod pellentesque. Sed pretium semper nisi. Proin euismod euismod justo, quis mattis nulla iaculis nec. Integer at dolor ante. Donec efficitur suscipit nunc lobortis molestie.
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapsed">
+                <i class="fa fa-code pr-10"></i>Web Development Experience
+              </a>
+            </h4>
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue dui vehicula, tincidunt diam ac, faucibus arcu. Etiam pellentesque imperdiet elit, id bibendum lorem auctor a. Donec rhoncus euismod pellentesque. Sed pretium semper nisi. Proin euismod euismod justo, quis mattis nulla iaculis nec. Integer at dolor ante. Donec efficitur suscipit nunc lobortis molestie.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- accordion end -->
+    <!-- progress bars start -->
+    <!-- ================ -->
+    <div id="progress_bars" class="col-md-6">
+      <div class="progress mt-20 style-1">
+        <span class="text"></span>
+        <div class="progress-bar progress-bar-default" data-animate-width="95%">
+          <span class="label object-non-visible" data-animation-effect="fadeInLeftSmall" data-effect-delay="1000">C++</span>
+        </div>
+      </div>
+      <div class="progress style-1">
+        <span class="text"></span>
+        <div class="progress-bar progress-bar-default" data-animate-width="90%">
+          <span class="label object-non-visible" data-animation-effect="fadeInLeftSmall" data-effect-delay="1000">Meteor.js</span>
+        </div>
+      </div>
+      <div class="progress style-1">
+        <span class="text"></span>
+        <div class="progress-bar progress-bar-default" data-animate-width="85%">
+          <span class="label object-non-visible" data-animation-effect="fadeInLeftSmall" data-effect-delay="1000">Javascript</span>
+        </div>
+      </div>
+      <div class="progress style-1">
+        <span class="text"></span>
+        <div class="progress-bar progress-bar-default" data-animate-width="90%">
+          <span class="label object-non-visible" data-animation-effect="fadeInLeftSmall" data-effect-delay="1000">HTML5</span>
+        </div>
+      </div>
+      <div class="progress style-1">
+        <span class="text"></span>
+        <div class="progress-bar progress-bar-default" data-animate-width="75%">
+          <span class="label object-non-visible" data-animation-effect="fadeInLeftSmall" data-effect-delay="1000">CSS</span>
+        </div>
+      </div>
+      <div class="progress style-1">
+        <span class="text"></span>
+        <div class="progress-bar progress-bar-default" data-animate-width="100%">
+          <span class="label object-non-visible" data-animation-effect="fadeInLeftSmall" data-effect-delay="1000">Unix</span>
+        </div>
+      </div>
+      <div class="progress style-1">
+        <span class="text"></span>
+        <div class="progress-bar progress-bar-default" data-animate-width="90%">
+          <span class="label object-non-visible" data-animation-effect="fadeInLeftSmall" data-effect-delay="1000">Amazon Web Services</span>
+        </div>
+      </div>
+    </div>
+    <!-- progress bars end -->
+  </div>
+</section>
+<!-- End About Me -->
+
+<!-- Features -->
+<section id="features" class="section-padding text-center gray-bg">
+    <div class="image_overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center gallery-header">
+                    <div class="navy-line"></div>
+                    <h1>My <span class="gallery-header-light">Services</span></h1>
+                </div>
+            </div>
+            <div class="row content-wrapper features-wrapper">
+                <div class="col-md-4 col-sm-6 col-xs-12 content-box mb-sm-30 wow fadeIn" data-wow-delay="0.2s" data-wow-duration="2s">
+                    <div class="icon-top icon-black"><i class="fa icon-basic-webpage-multiple"></i></div>
+                    <h5 class="features-title">Web Development</h5>
+                    <!-- <p>In the eyes of the consumer, a professional online presence is becoming an expected barrier to entry in an increasingly large amount of industries.  I can help you to create or improve your online precense.</p> -->
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue dui vehicula, tincidunt diam ac, faucibus arcu. Etiam pellentesque imperdiet elit, id bibendum lorem auctor a. Donec rhoncus euismod pellentesque. Sed pretium semper nisi. Proin euismod euismod justo, quis mattis nulla iaculis nec. Integer at dolor ante. Donec efficitur suscipit nunc lobortis molestie.
+                    </p>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 content-box mb-sm-30 wow fadeIn" data-wow-delay="0.4s" data-wow-duration="2s">
+                    <div class="icon-top icon-black"><i class="icon icon-basic-settings"></i></div>
+                    <h5 class="features-title">Embedded Development</h5>
+                    <!-- <p>The images on your website are the core to creating a powerful foundation.  These are the elements which adhere to your visitor's mind and are paramount to communicating your unique experiences.</p> -->
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue dui vehicula, tincidunt diam ac, faucibus arcu. Etiam pellentesque imperdiet elit, id bibendum lorem auctor a. Donec rhoncus euismod pellentesque. Sed pretium semper nisi. Proin euismod euismod justo, quis mattis nulla iaculis nec. Integer at dolor ante. Donec efficitur suscipit nunc lobortis molestie.
+                    </p>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 content-box mb-sm-30 wow fadeIn" data-wow-delay="0.6s" data-wow-duration="2s">
+                    <div class="icon-top icon-black"><i class="icon icon-basic-display"></i></div>
+                    <h5 class="features-title">Consulting</h5>
+                    <!-- <p>Have a technical problem within your business processes which needs addressing?  Contact me.  I will provide a comprehensive plan to address the issue so that your business runs smoothly.</p> -->
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue dui vehicula, tincidunt diam ac, faucibus arcu. Etiam pellentesque imperdiet elit, id bibendum lorem auctor a. Donec rhoncus euismod pellentesque. Sed pretium semper nisi. Proin euismod euismod justo, quis mattis nulla iaculis nec. Integer at dolor ante. Donec efficitur suscipit nunc lobortis molestie.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Features -->
+
+<!-- Begin Mission -->
+<section id="mission" class="container">
+  <!-- Mission Heading -->
+  <div  class="row">
+    <div class="col-lg-12">
+      <div class="gallery-header">
+          <div class="col-lg-12 text-center">
+              <div class="navy-line"></div>
+                <h1>My <span class="gallery-header-light">Mission</span></h1>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Content Paragraph -->
+  <div  class="content-wrapper row">
+    <div class="col-lg-12 text-center">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue dui vehicula, tincidunt diam ac, faucibus arcu. Etiam pellentesque imperdiet elit, id bibendum lorem auctor a. Donec rhoncus euismod pellentesque. Sed pretium semper nisi. Proin euismod euismod justo, quis mattis nulla iaculis nec. Integer at dolor ante. Donec efficitur suscipit nunc lobortis molestie.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue dui vehicula, tincidunt diam ac, faucibus arcu. Etiam pellentesque imperdiet elit, id bibendum lorem auctor a. Donec rhoncus euismod pellentesque. Sed pretium semper nisi. Proin euismod euismod justo, quis mattis nulla iaculis nec. Integer at dolor ante. Donec efficitur suscipit nunc lobortis molestie.
+      </p>
+    </div>
+  </div>
+  <!-- Mission Heading -->
+</section>
+<!-- End Mission -->
+
+<!-- Contact Me -->
+<!-- Dark wrapper -->
+<section id="contact" class="dark">
+  <!-- .contact-footer start -->
+  <!-- ================ -->
+  <div class="contact-footer">
+    <div class="container">
+      <div class="contact-footer-inner">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="contact-footer-content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="logo">
+                            <a class="page-scroll" href="#home">QUETTAN</a>
+                        </div>
+                    </div>
+                </div>
+              <!-- <div class="mb-20"><img
+                                  src="img/landing/logo-light.png" alt=""></div> -->
+              <br/>
+              <!-- <p>It would be great to hear from you!  Please, contact me with a description of your project to further this conversation.  I will provide you
+              with a quote and an estimated time to completion once we have completely established the scope and requirements for the project.
+              I look forward to hearing from you.<br/> -->
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue dui vehicula, tincidunt diam ac, faucibus arcu. Etiam pellentesque imperdiet elit, id bibendum lorem auctor a. Donec rhoncus euismod pellentesque. Sed pretium semper nisi. Proin euismod euismod justo, quis mattis nulla iaculis nec. Integer at dolor ante. Donec efficitur suscipit nunc lobortis molestie.
+              <br/>
+              <i> - Marcus Quettan</i>
+              </p>
+
+              <ul class="list-inline mb-20">
+                <li><i class="text-default fa fa-map-marker pr-5"></i> Atlanta, GA</li>
+                <li><i class="text-default fa fa-phone pl-10 pr-5"></i> +1 (770) 765-5515</li>
+                <li><a href="mailto:mquettan@gmail.com" class="link-dark"><i class="text-default fa fa-envelope-o pl-10 pr-10"></i>mquettan@gmail.com</a></li>
+              </ul>
+              <div class="separator-2"></div>
+              <ul class="social-links circle margin-clear animated-effect-1">
+                <li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                <li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                <li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
+                <li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+                <li class="xing"><a target="_blank" href="http://www.xing.com"><i class="fa fa-xing"></i></a></li>
+                <li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
+                <li class="youtube"><a target="_blank" href="https://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
+                <li class="dribbble"><a target="_blank" href="https://dribbble.com/"><i class="fa fa-dribbble"></i></a></li>
+                <li class="pinterest"><a target="_blank" href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li>
+                <li class="flickr"><a target="_blank" href="http://www.flickr.com"><i class="fa fa-flickr"></i></a></li>
+                <li class="instagram"><a target="_blank" href="http://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="contact-footer-content">
+              <h2 class="title">Contact Me</h2>
+              <div class="alert alert-success hidden" id="MessageSent">
+                Your message was successfully sent!
+              </div>
+              <div class="alert alert-danger hidden" id="MessageNotSent">
+                Oops! Something went wrong please refresh the page and try again.
+              </div>
+              <div class="alert alert-danger hidden" id="MessageNotSent2">
+                Yahoo E-Mail addresses do not cooperate with this form.  Please use a different E-Mail address.
+              </div>
+              <form role="form" id="contact-footer-form" class="margin-clear">
+                <div class="form-group has-feedback mb-10">
+                  <label class="sr-only" for="name">Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Name" name="name" required>
+                  <i class="fa fa-user form-control-feedback"></i>
+                </div>
+                <div class="form-group has-feedback mb-1">
+                  <label class="sr-only" for="email">Email address</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+                  <i class="fa fa-envelope form-control-feedback"></i>
+                </div>
+                <div class="form-group has-feedback mb-10">
+                  <label class="sr-only" for="message">Message</label>
+                  <textarea class="message_box form-control" rows="4" id="message" placeholder="Message" name="message" required></textarea>
+                  <i class="fa fa-pencil form-control-feedback"></i>
+                </div>
+                <input type="submit" value="Send" class="margin-clear submit-button btn btn-default">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- .contact-footer end -->
+</section>
+<!-- footer .dark wrapper end -->
+<!-- End Contact Me -->
+
+<!-- Copyright -->
+<section id="copyright" class="copyright_section">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <p>
+          Copyright <i class="fa fa-copyright"></i> <span id="year"></span> Marcus Quettan
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Copyright -->
+
+<!-- Begin Javascript -->
+<script src="js/preloaderlogic.js" type="text/javascript"></script>
+<script src="js/navbar.js" type="text/javascript"></script>
+<script src="js/aboutme.js" type="text/javascript"></script>
+<script src="js/contact.js" type="text/javascript"></script>
+<script src="js/copyright.js" type="text/javascript"></script>
+<!-- End Javascript -->
+</body>
+</html>
