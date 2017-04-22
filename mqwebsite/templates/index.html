@@ -2,26 +2,26 @@
 <html>
 <head>
 <!-- External Stylesheets -->
-<link rel="stylesheet" type="text/css" href="stylesheets/animate.css" />
-<link rel="stylesheet" type="text/css" href="stylesheets/font-awesome.min.css" />
-<link rel="stylesheet" type="text/css" href="stylesheets/linea_icons/linea_icon_font.css" />
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='stylesheets/animate.css') }}" />
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='stylesheets/font-awesome.min.css') }}" />
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='stylesheets/linea_icons/linea_icon_font.css') }}" />
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 <!-- Custom Stylesheets -->
-<link rel="stylesheet/less" type="text/css" href="stylesheets/style.less" />
+<link rel="stylesheet/less" type="text/css" href="{{ url_for('static', filename='stylesheets/style.less') }}" />
 
 <!-- External Javascript Libraries -->
-<script src="js/less.js" type="text/javascript"></script> <!-- less because css variables are amazing -->
-<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script> <!-- jQuery because everyone uses jQuery -->
-<script src="js/wow.min.js" type="text/javascript"></script> <!-- WOW animations, assists animate.css Animates on show. -->
+<script src="{{ url_for('static', filename='js/less.js') }}" type="text/javascript"></script> <!-- less because css variables are amazing -->
+<script src="{{ url_for('static', filename='js/jquery-3.2.1.min.js') }}" type="text/javascript"></script> <!-- jQuery because everyone uses jQuery -->
+<script src="{{ url_for('static', filename='js/wow.min.js') }}" type="text/javascript"></script> <!-- WOW animations, assists animate.css Animates on show. -->
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 <!-- Custom Javascript that should run before HTML gets rendered -->
-<script src="js/initialize.js" type="text/javascript"></script>
+<script src="{{ url_for('static', filename='js/initialize.js') }}" type="text/javascript"></script>
 
 </head>
 <body>
@@ -283,7 +283,7 @@
                     </div>
                 </div>
               <!-- <div class="mb-20"><img
-                                  src="img/landing/logo-light.png" alt=""></div> -->
+                                  src="{{ url_for('static', filename='img/landing/logo-light.png') }}" alt=""></div> -->
               <br/>
               <!-- <p>It would be great to hear from you!  Please, contact me with a description of your project to further this conversation.  I will provide you
               with a quote and an estimated time to completion once we have completely established the scope and requirements for the project.
@@ -371,11 +371,11 @@
 <!-- End Copyright -->
 
 <!-- Begin Javascript -->
-<script src="js/preloaderlogic.js" type="text/javascript"></script>
-<script src="js/navbar.js" type="text/javascript"></script>
-<script src="js/aboutme.js" type="text/javascript"></script>
-<script src="js/contact.js" type="text/javascript"></script>
-<script src="js/copyright.js" type="text/javascript"></script>
+<script src="{{ url_for('static', filename='js/preloaderlogic.js') }}" type="text/javascript"></script>
+<script src="{{ url_for('static', filename='js/navbar.js') }}" type="text/javascript"></script>
+<script src="{{ url_for('static', filename='js/aboutme.js') }}" type="text/javascript"></script>
+<script src="{{ url_for('static', filename='js/contact.js') }}" type="text/javascript"></script>
+<script src="{{ url_for('static', filename='js/copyright.js') }}" type="text/javascript"></script>
 <!-- End Javascript -->
 </body>
 </html>
